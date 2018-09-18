@@ -1,0 +1,26 @@
+# project: cjhcsejyr7dwt0109y8gdtrwj
+# version: 2
+
+type Chat @model {
+  id: ID! @isUnique
+  from: String!
+  content: String!
+  createdAt: DateTime!
+}
+
+type File @model {
+  contentType: String!
+  createdAt: DateTime!
+  id: ID! @isUnique
+  name: String!
+  secret: String! @isUnique
+  size: Int!
+  updatedAt: DateTime!
+  url: String! @isUnique
+}
+
+type User @model {
+  createdAt: DateTime!
+  id: ID! @isUnique
+  updatedAt: DateTime!
+}

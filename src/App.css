@@ -1,0 +1,14 @@
+.container {
+  width: 50%;
+  background: #f5f5f5;
+  border-radius: 0px;
+}
+
+input {
+    padding-left: .325em;
+    border: none;
+    color: white;
+    flex: 1;
+    border-radius: 0 !important;
+    width: 100%;
+}
